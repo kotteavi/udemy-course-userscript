@@ -1,13 +1,11 @@
 
 // ==UserScript==
-// @name       Udemy Course stats
+// @name       Udemy course stats
 // @namespace  https://github.com/kotteavi
 // @version    0.1
 // @description  Show time for total course length, lessons completed and lessons leftover.
 // @match      https://www.udemy.com/*
 // ==/UserScript==
-
-// TODO we could also potentially do number of lessons left, and extend the revealing modulo pattern
 
 window.onload = function () {
 
